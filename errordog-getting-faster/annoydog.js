@@ -5,7 +5,7 @@ var annoydog = new Howl({
 
 var update_time = new Date();
 
-var percent_time = 0.17686;
+var percent_time = 0.15686;
 
 var rate = 1;
 var rate_timer = percent_time;
