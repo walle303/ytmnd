@@ -5,7 +5,7 @@ var muffet = new Howl({
 
 var update_time = new Date();
 
-var percent_time = 0.87686;
+var percent_time = 0.97686;
 
 var rate = 1;
 var rate_timer = percent_time;
