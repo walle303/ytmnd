@@ -4,12 +4,12 @@ var sans = new Howl({
 	loop: true,
 });
 var update_time = new Date();
-var percent_time = 1.37686;
+var percent_time = 1.47686;
 var rate = 1;
 var rate_timer = percent_time;
 var currIndex = -1;
-var rateUntilActivation = 7;
-var rateIncreaseBeforeNextLineOfDialogue = 3;
+var rateUntilActivation = 6;
+var rateIncreaseBeforeNextLineOfDialogue = 2;
 function update() {
 	var divwidth = document.getElementById('rumbling_sans').offsetWidth;
 	var divheight = document.getElementById('rumbling_sans').offsetHeight;
