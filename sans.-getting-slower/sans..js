@@ -5,7 +5,7 @@ var sans = new Howl({
 
 var update_time = new Date();
 
-var percent_time = 2.7686;
+var percent_time = 27.686;
 
 bottomcount = 0
 sansrot = 0
