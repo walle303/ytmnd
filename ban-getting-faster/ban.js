@@ -4,7 +4,7 @@ var sans = new Howl({
 });
 var update_time = new Date();
 var percent_time = 0.57686;
-var rate = 1;
+var rate = 0.75;
 var rate_timer = percent_time;
 var rateIncreaseBeforeNextLineOfDialogue = 5;
 function update() {
@@ -22,7 +22,7 @@ function update() {
 	}
 	document.getElementById("ban").style.top = ((rate - Math.random() * rate * 2)+((divheight-149)/2)) + "px";
 	document.getElementById("ban").style.left = ((rate - Math.random() * rate * 2)+((divwidth-200)/2)) + "px";
-        document.getElementById("ban").playbackRate = (rate/5);
+        document.getElementById("ban").playbackRate = (rate/4);
 	requestAnimationFrame(update);
 }
 function run() {
