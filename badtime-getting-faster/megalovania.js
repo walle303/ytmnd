@@ -4,7 +4,7 @@ var sans = new Howl({
 	loop: true,
 });
 var update_time = new Date();
-var percent_time = 1.57686;
+var percent_time = 1.56686;
 var rate = 1;
 var rate_timer = percent_time;
 var currIndex = -1;
