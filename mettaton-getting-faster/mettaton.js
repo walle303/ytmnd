@@ -5,7 +5,7 @@ var mettaton = new Howl({
 
 var update_time = new Date();
 
-var percent_time = 0.57686;
+var percent_time = 0.63286;
 
 var rate = 1;
 var rate_timer = percent_time;
